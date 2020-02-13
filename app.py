@@ -40,8 +40,8 @@ def handle_message(event):
     msg = event.message.text
     s = '吃飽沒'
     if msg == 'hi':
-        s = 'hi'
-    elif mag == '睡了沒':
+        s = 'hi' 
+    elif msg == '睡了沒':
         s = '還沒 '
 
     line_bot_api.reply_message(
